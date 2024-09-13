@@ -12,7 +12,7 @@ body {
     text-align: center; /* Se centra el texto del cuerpo */
 
     /* Color de fondo del cuerpo */
-    background-color:#1100ff; /* Se establece el color de fondo del cuerpo */
+    background-color:#54c985; /* Se establece el color de fondo del cuerpo */
     
     /* Color del texto */
     color:#fff; /* Se establece el color del texto en blanco */
@@ -24,7 +24,7 @@ header {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Se establece el tipo de fuente para el encabezado */
 
     /* Color de fondo */
-    background-color: #000000; /* Se establece el color de fondo del encabezado */
+    background-color:#b14dd8; /* Se establece el color de fondo del encabezado */
 
     /* Color del texto */
     color: #fff; /* Se establece el color del texto en blanco */
