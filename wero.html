@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nahum</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            background-image: url('fondonosotros.png');
+            background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+            animation: slideIn 1.5s ease-out;
+        }
+        img {
+            width: 400px;
+            height: 450px;
+            border: 10px solid black; 
+            border-radius: 20px; 
+            animation: fadeIn 2s ease-in;
+        }
+        button {
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            background-color: #11d6f0;
+            color: white; transition: all 0.3s ease;
+        
+        }
+        button:hover {
+            background-color:rgb(74, 156, 200) ;
+            transform: scale(1.1); 
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+        }
+        p {
+            font-size: 18px;
+            color: #333;
+            animation: fadeIn 2s ease-in;
+        }
+        .contenedor {
+            width: 60%; 
+            margin: 20px auto; 
+            padding: 20px; 
+            background-color: #d5d1e4; 
+            border: 2px solid #cccccc;
+            border-radius: 10px; 
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); 
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideIn {
+            from { transform: translateY(100%); }
+            to { transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+<h1>Datos sobre mi</h1>
+<img src="wro.jfif" width="400px" height="500px">
+
+<div class="contenedor">
+<p> </p>
+<p>HOLA soy wero, tengo 17 años soy extremadamente bueno en el gym y me husta el futbol el cr7 es el goat arriba las chivas y el madrid hal madrid tengo 2 perros un salchicha y una pugberta </p>
+<p>mi cantante favorito es bad bunny, y mi cancion fav es "los pits" mi comida favorita es el pan con palta y mi idolo del fitness es brayan soto</p>
+</div>
+
+
+<button onclick="location.href='proyecto.html'">Volver a la Página Principal</button>
+
+</body>
+</html>
